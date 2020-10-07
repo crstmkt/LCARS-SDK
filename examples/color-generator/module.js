@@ -98,7 +98,7 @@ children:[
                     {type:'button', color:LCARS.helper.aRandColor(uiColors), version:'round'},
                     {type:'button', color:LCARS.helper.aRandColor(uiColors), version:'round'},
                     {type:'button', color:LCARS.helper.aRandColor(uiColors), version:'round'},
-                    {type:'button', color:LCARS.helper.aRandColor(uiColors), version:'round', label:'Docs', state:'blink', href:'https://github.com/Aricwithana/LCARS-SDK/wiki'}           
+                    {type:'button', color:LCARS.helper.aRandColor(uiColors), version:'round', label:'Docs', state:'blink', href:'https://github.com/crstmkt/LCARS-SDK/wiki'}           
                 ]},
             ]},
 

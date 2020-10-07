@@ -73,7 +73,7 @@ children:[
                     {type:'button', color:'bg-blue-3', version:'round'},
                     {type:'button', color:'bg-green-3', version:'round'},
                     {type:'button', color:'bg-blue-4', version:'round'},
-                    {type:'button', color:'bg-green-1', version:'round', label:'Documentation', state:'blink', href:'https://github.com/Aricwithana/LCARS-SDK/wiki'}           
+                    {type:'button', color:'bg-green-1', version:'round', label:'Documentation', state:'blink', href:'https://github.com/crstmkt/LCARS-SDK/wiki'}           
                 ]}
             ]},
 

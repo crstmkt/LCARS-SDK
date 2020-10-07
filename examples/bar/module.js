@@ -24,22 +24,19 @@ children:[
 {type:'wrapper', version:'column', id:'wpr_mainView', flex:'v', flexc:'h', children:[   
 
     //Header
-    {type:'row', version:'header', flex:'h', children:[
-
-        {type:'wrapper', flexc:'h', flex:'v', children:[
-            //Header Bottom Bars
-            {type:'row', version:'frame', flex:'h', children:[
-                {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
-                {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
-                {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
-                {type:'bar', color:LCARS.helper.aRandColor(uiColors), flexc:'h'},
-                {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
-                {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
-                {type:'bar', color:LCARS.helper.aRandColor(uiColors)}
-            ]}
-
+    {type:'wrapper', flexc:'h', flex:'v', children:[
+        //Header Bottom Bars
+        {type:'row', version:'frame', flex:'h', children:[
+            {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
+            {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
+            {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
+            {type:'bar', color:LCARS.helper.aRandColor(uiColors), flexc:'h'},
+            {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
+            {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
+            {type:'bar', color:LCARS.helper.aRandColor(uiColors)}
         ]}
-
     ]}
+
+    
 ]}
 ]}; 

@@ -1,7 +1,7 @@
 /** LCARS SDK 19182.4
 * This file is a part of the LCARS SDK.
 * https://github.com/AricwithanA/LCARS-SDK/blob/master/LICENSE.md
-* For more information please go to http://www.lcarssdk.org.
+* For more information please go to https://github.com/crstmkt/LCARS-SDK/wiki.
 **/
 
 //To render JS Code into DOM
@@ -23,20 +23,15 @@ children:[
 //Main Area
 {type:'wrapper', version:'column', id:'wpr_mainView', flex:'v', flexc:'h', children:[   
 
-    //Header
-    {type:'wrapper', flexc:'h', flex:'v', children:[
-        //Header Bottom Bars
-        {type:'row', version:'frame', flex:'h', children:[
-            {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
-            {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
-            {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
-            {type:'bar', color:LCARS.helper.aRandColor(uiColors), flexc:'h'},
-            {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
-            {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
-            {type:'bar', color:LCARS.helper.aRandColor(uiColors)}
-        ]}
-    ]}
-
-    
+    //Header Bars
+    {type:'row', version:'frame', flex:'h', children:[ //This is for horizontal alignment
+        {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
+        {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
+        {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
+        {type:'bar', color:LCARS.helper.aRandColor(uiColors), flexc:'h'},
+        {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
+        {type:'bar', color:LCARS.helper.aRandColor(uiColors)},
+        {type:'bar', color:LCARS.helper.aRandColor(uiColors)}
+    ]}    
 ]}
 ]}; 

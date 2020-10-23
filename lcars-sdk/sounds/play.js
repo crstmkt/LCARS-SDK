@@ -28,6 +28,5 @@ function play(sound) {
             audio = new Audio('/lcars-sdk/sounds/0002.wav');
             audio.play();
         break;
-
-    }
+      }
   }

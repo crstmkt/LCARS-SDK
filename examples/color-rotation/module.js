@@ -7,7 +7,8 @@ var colorArray = ['bg-blue-1', 'bg-blue-2','bg-blue-3','bg-blue-4', 'bg-green-1'
 var timer_colorChanges = null
 var array_colorChangeObjects = null;
 
-var nemesisUI = {type:'wrapper', id:'wpr_viewport', version:'row', class:{'scale':true, 'red-alert':true}, flex:'h', arrive:function(){var dom = this.dom; LCARS.helper.viewportZoom(dom, {width:1440, height:1080}); 
+var nemesisUI = {type:'wrapper', id:'wpr_viewport', version:'row', class:{'scale':true, 'red-alert':true}, flex:'h', 
+arrive:function(){var dom = this.dom; LCARS.helper.viewportZoom(dom, {width:1440, height:1080}); 
     window.addEventListener("resize", function(){LCARS.helper.viewportZoom(dom, {width:1440, height:1080});});},
 
 children:[

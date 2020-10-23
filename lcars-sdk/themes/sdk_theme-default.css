@@ -914,7 +914,7 @@
 /* =============================================================================
    Active/Hover States. Included for optional use.
    ==========================================================================*/
-/* 
+
 .button:not(.endcap):active, 
 .endcap:active > .cap, 
 .elbow:active,
@@ -936,6 +936,6 @@ border-left-color:#ffffff !important;
 [class*="bg-"] > *:not([class*="bg-"]){
 	transition:background-color .25s linear, border .25s linear;
 }
-*/
+
 
    

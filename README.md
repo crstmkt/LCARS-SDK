@@ -1,4 +1,4 @@
-PLEASE NOTE: I forked LCARS-SDK for my own purposes and projects. I won't give it further development. Maybe a bugfix or some colors added. I will experiment with it and upload some examples and expand the wiki for my own understanding. Feel free to participate.
+PLEASE NOTE: I forked LCARS-SDK for my own purposes and projects. IF i give it further developement, it will be only for my own purposes to fit my needs. Feel free to participate!
 
 ============
 

@@ -24,8 +24,9 @@ children:[
     {type:'wrapper', version:'column', id:'wpr_mainView', flex:'v', flexc:'h', children:[   
 
         //Header Bars
-        {type:'row', version:'frame', flex:'h', children:[ //This is for horizontal alignment
-            {type: 'slider'}
+        {type:'row', version:'frame', flex:'h', children:[ 
+            {type: 'slider', version:'horizontal'},
+            {type: 'slider', version:'vertical'}
         ]}    
     ]}
 ]}; 

@@ -35,7 +35,7 @@ LCARS.element.slider.prototype = {
     
 	//Required.  Create DOM element and base class
 	create:function(oDef){
-		var element = $('<div class="slider"><input id="'+this.data.id+'" type="range"></input></div>');
+		var element = $('<input id="'+this.data.id+'" type="range" ></input>');
 		return element;
 	},	
     

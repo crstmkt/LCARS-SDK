@@ -1908,24 +1908,33 @@ pre{white-space: pre-wrap;
 /* =============================================================================
    Sliders
    ========================================================================== */
+input[type=range] {
+    width: 150px !important;
+    -webkit-appearance: none;
+    background-image: -webkit-linear-gradient(right, #e03e3e, #4b1dcc);
+	background-image: linear-gradient(right, #e03e3e, #4b1dcc);
+}
 
-input[type=range].horizontal {
+/* input[type=range] {
+    width: 150px !important;
     -webkit-appearance: none;
-    background-color: pink;
-    width: 200px;
-    height:10px;
-}
-input[type=range].vertical {
-    -webkit-appearance: slider-vertical;
-    background-color: pink;
+    background-image: -webkit-linear-gradient(right, #e03e3e, #4b1dcc);
+	background-image: linear-gradient(right, #e03e3e, #4b1dcc);
+} */
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
     width: 10px;
-    height:200px;
+    height: 10px;
+    background-color: #555;
+	background-image: -webkit-linear-gradient(right, #e03e3e, #4b1dcc);
+    background-image: linear-gradient(right, #e03e3e, #4b1dcc);
 }
-input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    background-color: red;
-    width: 20px;
-    height: 20px;
+
+input[type=range].vertical {
+	position: relative;
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg)
 }
 
 /* =============================================================================

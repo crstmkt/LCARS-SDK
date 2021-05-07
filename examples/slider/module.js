@@ -24,9 +24,11 @@ children:[
     {type:'wrapper', version:'column', id:'wpr_mainView', flex:'v', flexc:'h', children:[   
 
         //Header Bars
-        {type:'row', version:'frame', flex:'h', children:[ 
-            {type: 'slider', version:'horizontal'},
+        {type:'row', children:[ 
+            {type: 'slider', version:'horizontal'}
+        ]},
+        {type:'row', children:[ 
             {type: 'slider', version:'vertical'}
-        ]}    
+        ]}     
     ]}
 ]}; 
